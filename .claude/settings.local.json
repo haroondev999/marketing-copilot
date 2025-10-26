@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(tree:*)",
+      "Bash(cat:*)",
+      "Bash(docker-compose:*)",
+      "Bash(wc -l /app/src/**/*.{ts,tsx})",
+      "Bash(chmod:*)",
+      "Bash(npm audit:*)",
+      "Bash(ls:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
